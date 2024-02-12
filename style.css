@@ -129,7 +129,8 @@ nav #nav-part2 #links a {
 
 .buy-button {
     font-size: 2vw;
-    font-family: 'Futura';
+    font-family: 'Futura', sans-serif;
+    font-weight: 900;
     padding: 10px 20px;
     color: #000000;
     background-color: transparent;
@@ -144,24 +145,25 @@ nav #nav-part2 #links a {
     position: absolute;
     animation: rotateWords 20s linear infinite;
     top: 6vw;
+    font-family: 'Helvetica', sans-serif;
     left: 65vw;
 }
 
-@keyframes rotateWords {
+/* @keyframes rotateWords {
     0% {
       transform: rotate(0deg) translateX(100px) rotate(0deg);
     }
     100% {
       transform: rotate(360deg) translateX(100px) rotate(-360deg);
     }
-  }
+  } */
 
 .circular-text span {
     position: absolute;
     left: 50%;
     font-size: 1em;
     transform-origin: 0 100px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,7 +304,7 @@ hr {
 }
 
 #page3 #div1 h1 {
-    font-family: 'Futura';
+    font-family: 'Futura', sans-serif;
     padding: 2vw 3vw;
     font-size: 4vw;
     line-height: 4.5vw;
