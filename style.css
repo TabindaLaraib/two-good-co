@@ -647,6 +647,9 @@ footer {
         height: 40px;
         width: 60%;
     }
+    #page2:hover .hidden-div{
+        display: none;
+    }
 
     #page2 .elem .dets a {
         font-family: 'Futura', sans-serif;
